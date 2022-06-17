@@ -18,7 +18,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "src" //Aqui acrescentamos o baseUrl para indicar a url base para os importes
   },
   "include": [
     "src"
